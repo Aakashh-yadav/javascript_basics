@@ -21,16 +21,19 @@
 // console.log(s===s2);
 // let a = 84;
 // console.log(typeof(a));
-let a=54n;
-// console.log(typeof(a));
-let k = 54;
+// let a=54n;
+// // console.log(typeof(a));
+// let k = 54;
 
-k=BigInt(k);
-console.log(k);
-console.log(a===k); 
+// k=BigInt(k);
+// console.log(k);
+// console.log(a===k); 
 
-
-
+// console.log('true'== true)
+// let c='number';
+// let k =Number(c);
+// console.log(k);
+console.log(typeof NaN);
 
 
 
