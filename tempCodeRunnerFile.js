@@ -46,5 +46,5 @@ const num = students.map((st) => {
         st.roll += 20;
     }
     return st;
-}).filter((st) => st.marks > 50);
+}).filter((st) => st.roll > 50).reduce((acc, cur) => acc + cur.roll, 0)
 console.log(num);
