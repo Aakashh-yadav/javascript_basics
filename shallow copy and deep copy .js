@@ -1,7 +1,7 @@
 //simple try to take the copy to the object
-obj ={
+obj = {
     name: "John",
-    age:35
+    age: 35
 }
 // var obj2=obj;
 // obj2.name="changed"
@@ -18,12 +18,12 @@ obj ={
 
 
 function deepcopy(obj) {
-    if(typeof(obj)!=='object'||typeof(obj)===null) return obj;
-    var copy =Array.isArray(obj) ? []:{};
-    var kees=Object.keys(obj);
-    for(var i=0;i<kees.length;i++){
-    copy[kees[i]] = deepcopy(obj[keys[i]])
+    if (typeof (obj) !== 'object' || typeof (obj) === null) return obj;
+    var copy = Array.isArray(obj) ? [] : {};
+    var kees = Object.keys(obj);
+    for (var i = 0; i < kees.length; i++) {
+        copy[kees[i]] = deepcopy(obj[keys[i]])
     }
     return copy
-    }
-    
+}
+
