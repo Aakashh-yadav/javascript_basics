@@ -1,10 +1,12 @@
-let mysym=Symbol(`key1`);
-let obj1={
+// let mysym=Symbol(`key1`);
+// let obj1={
 
-    name:`Aakash yadav`,
-    [mysym] : `my key`
+//     name:`Aakash yadav`,
+//     [mysym] : `my key`
 
-}
-console.log(obj1);
+// }
+// console.log(obj1);
 
-// console.log(this[mysym])
+// // console.log(this[mysym])
+const one = new String('aakash-yadav')
+console.log(one.lastIndexOf('a'));
